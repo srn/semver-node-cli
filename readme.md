@@ -22,13 +22,13 @@ $ npm i -g semver-node-cli
 
   Examples
     $ semver-node --stable
-    4.2.1
+    5.1.1
 
     $ semver-node --resolve '>=0.8.5 <=0.8.14'
     0.8.14
 
     $ semver-node --stable --mirror 'https://npm.taobao.org/mirrors/node'
-    4.2.1
+    5.1.1
 ```
 
 ## Related
