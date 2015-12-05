@@ -1,0 +1,40 @@
+{
+  "name": "semver-node-cli",
+  "version": "1.0.0",
+  "description": "cli for semver-node",
+  "main": "test.js",
+  "dependencies": {
+    "meow": "3.6.0",
+    "semver-node": "1.0.0",
+    "update-notifier": "0.6.0"
+  },
+  "devDependencies": {
+    "ava": "0.7.0",
+    "nock": "3.3.2",
+    "pify": "2.3.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "semver-node": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srn/semver-node-cli.git"
+  },
+  "keywords": [
+    "semver",
+    "node",
+    "cli"
+  ],
+  "author": "Søren Brokær <root@srn.io> (http://srn.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srn/semver-node-cli/issues"
+  },
+  "homepage": "https://github.com/srn/semver-node-cli#readme"
+}
